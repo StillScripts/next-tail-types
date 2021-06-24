@@ -27,11 +27,11 @@
 } 
 
 .subtitle-1 {
-    @apply font-serif text-base font-normal tracking-normal;
+    @apply font-serif text-base md:text-xl font-normal tracking-normal;
 }
 
 .subtitle-2 {
-    @apply font-serif text-sm font-medium tracking-normal;
+    @apply font-serif text-sm md:text-base font-medium tracking-normal;
 }
 
 .body-1 {
