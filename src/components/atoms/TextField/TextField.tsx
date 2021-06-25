@@ -4,7 +4,7 @@ import { InputType, InputVariant } from '../../../types/AtomTypes'
 type TextFieldProps = {
 	className?: string;
 	inputAttributes?: InputHTMLAttributes<HTMLInputElement>;
-	texareaAttributes?: TextareaHTMLAttributes<HTMLTextAreaElement>;
+	textareaAttributes?: TextareaHTMLAttributes<HTMLTextAreaElement>;
 	label?: string;
 	multiline?: boolean;
 	type?: InputType;
@@ -12,7 +12,7 @@ type TextFieldProps = {
 }
  
 const TextField:React.FC<TextFieldProps> = ({ 
-	className, inputAttributes, texareaAttributes, label, multiline, type, variant
+	className, inputAttributes, textareaAttributes, label, multiline, type, variant
 }) => {
 
 	const classes = 'block ' + `${className? className: ''} ` +
@@ -30,7 +30,7 @@ const TextField:React.FC<TextFieldProps> = ({
 			{multiline ? 
 			<textarea 
 				className={classes}
-				{...texareaAttributes}
+				{...textareaAttributes}
 			/> :
 			<input
 				className={classes}
