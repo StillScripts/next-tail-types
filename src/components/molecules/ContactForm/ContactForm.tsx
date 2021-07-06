@@ -28,21 +28,21 @@ const ContactForm:React.FC<ContactFormProps> = ({ className}) => {
 				className='w-full mb-4' label='Name' type='text' variant='simple'   
 				inputAttributes={{
 					value: formData.name, onChange: (e)=>handleChange('name', e.target.value),
-					required: true
+					required: true, placeholder: 'Your name'
 				}}
 			/>
 			<TextField 
 				className='w-full mb-4' label='Email' type='email' variant='simple'   
 				inputAttributes={{
 					value: formData.email, onChange: (e)=>handleChange('email', e.target.value),
-					required: true
+					required: true, placeholder: 'Your email'
 				}}
 			/>
 			<TextField 
 				className='w-full mb-4' label='Message' multiline type='text' variant='simple'   
 				textareaAttributes={{
 					value: formData.message, onChange: (e)=>handleChange('message', e.target.value),
-					required: true, rows: 2,
+					required: true, rows: 2, placeholder: 'Your message'
 				}}
 			/>
 			<Button 

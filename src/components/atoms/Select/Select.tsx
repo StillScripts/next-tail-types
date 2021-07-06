@@ -1,4 +1,4 @@
-import React, { SelectHTMLAttributes, useContext } from 'react'
+import React, { SelectHTMLAttributes } from 'react'
  
 type SelectProps = {
 	className?: string;

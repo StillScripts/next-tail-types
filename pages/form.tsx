@@ -11,7 +11,7 @@ export default function Form() {
       </Head>
 
       <main className='px-8 md:px-16 lg:px-24'>
-		<div className='bg-white py-4 px-6 rounded-lg shadow-lg' >
+		<div className='bg-white w-80 py-4 px-6 rounded-lg shadow-lg' >
 			<ContactForm />
 		</div>
       </main>

@@ -10,13 +10,13 @@ export default function Home() {
       </Head>
 
       <main className='px-8 md:px-16 lg:px-24'>
-        <h1 className='h1 text-center mb-8 text-primary-dark'>
+        <h1 className='text-center mb-8 text-primary-dark'>
           Next-Tail-Types
         </h1>
         <p className='subtitle-1 text-center md:px-12 mb-4 text-primary-main'>
           A NextJS Starter enabling TailwindCSS for design and TypeScript for coding.
         </p>
-        <p className='body-1 text-center text-gray-900'>
+        <p className='text-center text-gray-900'>
           View the GitHub repository{' '}
           <a 
             className='underline text-primary-main hover:text-primary-dark' 

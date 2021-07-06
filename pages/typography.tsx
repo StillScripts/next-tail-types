@@ -10,18 +10,18 @@ export default function Typography() {
       </Head>
 
       <main className='px-8 md:px-16 lg:px-24'>
-		<h1 className='h4 text-primary-dark mb-4 underline'>Basic Typography</h1>
-        <h1 className='h1'>Heading 1</h1>
-        <h2 className='h2'>Heading 2</h2>
-        <h3 className='h3'>Heading 3</h3>
-        <h4 className='h4'>Heading 4</h4>
-        <h5 className='h5'>Heading 5</h5>
-        <h6 className='h6'>Heading 6</h6>
+		    <h4 className='text-primary-dark mb-4 underline'>Basic Typography</h4>
+        <h1 className=''>Heading 1</h1>
+        <h2 className=''>Heading 2</h2>
+        <h3 className=''>Heading 3</h3>
+        <h4 className=''>Heading 4</h4>
+        <h5 className=''>Heading 5</h5>
+        <h6 className=''>Heading 6</h6>
         <p className='subtitle-1'>Subtitle 1</p>
         <p className='subtitle-2'>Subtitle 2</p>
-        <p className='body-1'>Body 1</p>
+        <p>Body 1</p>
         <p className='body-2'>Body 2</p>
-       	<button className='button'>Button</button>
+       	<button>Button</button>
         <p className='caption'>Caption</p>
         <p className='overline'>Overline</p>
       </main>
